@@ -1,0 +1,66 @@
+$element_margin_top: 100px;
+
+
+.jumbotron{
+    margin-top: 50px;
+    background-image: url('../../power-x-gym/Image\ &\ Icon/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding: 200px 0px;
+    color:white;
+}
+
+.jumbotron a{
+    padding: 10px 70px;
+    font-size: x-large;
+    font-weight: 700;
+    background-color: rgb(245, 207, 81);
+}
+
+.progression{
+    background-image: url("../../power-x-gym/Image & Icon/hipcravo-5UbIqV58CW8-unsplash.jpg");
+}
+
+.workout{
+    background-image: url("../../power-x-gym/Image & Icon/daniel-apodaca-WdoQio6HPVA-unsplash.jpg");
+}
+
+.nutrition{
+    background-image: url("../../power-x-gym/Image & Icon/penguinuhh-8VI6WwEEEHw-unsplash.jpg");
+}
+
+.progression, .workout, .nutrition{
+    margin-top: $element_margin_top;
+    background-size: cover;
+    margin-right: 5%;
+    color: white;
+    text-align: center;
+    padding-top: 250px;
+    margin-left: 20px;
+}
+
+.about{
+    margin-top: $element_margin_top;
+}
+
+.about img{
+    height: 100%;
+    width: 100%;
+}
+
+.why_us{
+    margin-top: $element_margin_top;
+}
+
+.why_us h1{
+    margin-bottom: 50px;
+}
+
+.card img{
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
